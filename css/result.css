@@ -1,0 +1,192 @@
+body{
+	background-color:  ;
+	background-image: url("img/back.jpg");
+	}#nav-top{
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+
+*{
+	margin:0;
+	padding: 0;
+	font-family: vardana;
+}
+#main{
+width:100%;
+height: 100vh;
+background: url(img/a.jpg);
+background-size: cover;
+}
+
+nav{
+	width:100%;
+	height: 80px;
+	background-color:#0005  ;
+	line-height: 80px;
+}
+nav ul{
+	float: none;
+	margin-right: 30px;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	transform: 0.8s all;
+}
+nav ul li:hover{
+	background:#a4a4a4;
+}
+nav ul li a{
+
+	text-decoration: none;
+	color:#fff;
+	padding: 30px;
+}
+
+form{
+	float: right;
+	margin-top: 0px;
+	margin-right: 10px;
+
+}
+
+input{
+	padding: 3px;
+	border: none;
+	  border-radius: 5px;
+	font-size: 24px;
+font-family: sans-serif;
+
+
+}
+button{
+	float: right;
+	color: white;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+	position: relative;
+	padding: 3px;
+	font-family: sans-serif;
+	font-size: 24px;
+	margin-top: 19px;
+	border-radius:5px;
+	border:none;
+  margin-right: 0px;
+	background-color: green;
+}
+/* END MENU */
+
+/* FEEDBACK START */
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 95%;
+  margin: 20px;
+  padding: 20px;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  color: white;
+	background-color: #0005;
+}
+
+/* #customers tr:nth-child(even){background-color: #f2f2f2;} */
+
+#customers tr:hover {
+  background-color: black;
+color: white;
+}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #0009;
+  color: white;
+}
+
+/* FEEDBACK END */
+
+
+
+/* START GRID */
+.grid_container{
+        background:  #0005;
+        height: 250px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 40px;
+
+}
+.grid-item{
+      padding: 30px;
+      color: white;
+      font-size: 20px;
+  text-align: center;
+
+}
+.fp{
+padding:5px;
+}
+.grid-item a h3{
+  text-align: center;
+  color: white;
+}
+
+
+
+p a{
+
+
+  padding: 12px;
+}
+.fb{
+  background: #3b5998;
+  border-radius: 5px;
+}
+
+.sky{
+  background: #00AFF0;
+ border-radius: 5px;
+}
+
+
+.twitter{
+
+background: #00acee;
+border-radius: 5px;
+}
+
+.linkedin{
+
+background: #00acee;
+ border-radius: 5px;
+}
+.gmail{
+background: #00acee;
+ border-radius: 5px;
+
+}
+
+/* END GRID DESIGN */
+
+
+/* FOOTER START */
+
+.main-footer{
+  background:#0009;
+  height: 60px;
+
+}
+.footer{
+  text-align: center;
+  color: white;
+  padding: 25px;
+}
+
+/* footer end */

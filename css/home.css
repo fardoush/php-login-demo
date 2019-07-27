@@ -1,0 +1,234 @@
+body{
+	background-color:  ;
+	background-image: url("img/back.jpg");
+	}#nav-top{
+	border-radius: 0;
+	margin-bottom: 0;
+}
+
+
+*{
+	margin:0;
+	padding: 0;
+	font-family: vardana;
+}
+#main{
+width:100%;
+height: 100vh;
+background: url(img/a.jpg);
+background-size: cover;
+}
+
+nav{
+	width:100%;
+	height: 80px;
+	background-color:#0005  ;
+	line-height: 80px;
+}
+nav ul{
+	float: none;
+	margin-right: 30px;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	transform: 0.8s all;
+}
+nav ul li:hover{
+	background:#a4a4a4;
+}
+nav ul li a{
+
+	text-decoration: none;
+	color:#fff;
+	padding: 30px;
+}
+
+form{
+	float: right;
+	margin-top: 0px;
+	margin-right: 10px;
+
+}
+
+input{
+	padding: 3px;
+	border: none;
+	  border-radius: 5px;
+	font-size: 24px;
+font-family: sans-serif;
+
+
+}
+button{
+	float: right;
+	color: white;
+	border-radius: 0 5px 5px 0;
+	cursor: pointer;
+	position: relative;
+	padding: 3px;
+	font-family: sans-serif;
+	font-size: 24px;
+	margin-top: 17px;
+	border-radius:5px;
+	border:none;
+  margin-right: 0px;
+	background-color: green;
+}
+
+.slider-img{
+	width:100%;
+	height:480px;
+
+}
+
+/* feedback */
+
+
+/* feedback start */
+.container{
+  background-color: #;
+  height: 400px;
+  width:100%;
+
+}
+.info{
+  float: left;
+  background-color: #;
+  height: 200px;
+  width: 40%;
+  margin:70px;
+  padding: 5px;
+
+}
+.initem{
+  /* border-radius: 8px; */
+  height:35px;
+  margin-left:50px;
+}
+
+.info2{
+  float: right;
+  background-color: #;
+  height:200px;
+  width: 40%;
+    margin:70px;
+    padding: 5px;
+
+}
+label{
+	font-size: 20px;
+}
+.btn{
+  background-color: green;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+	margin-right: 0px;
+	margin: 20px;
+  height: 35px;
+
+}
+
+/* feedbackend */
+
+
+textarea{
+border:2px solid black;
+border-radius:5px;
+	margin-top:0px;
+	margin-left:45px;
+
+}
+.butn{
+	margin:10px;
+}
+
+
+
+ .mes{
+	height:200px;
+	width:40%;
+
+}
+
+/* Grid Start*/
+
+
+
+.grid_container{
+        background:  #0005;
+        height: 250px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 40px;
+
+}
+.grid-item{
+      padding: 30px;
+      color: white;
+      font-size: 20px;
+  text-align: center;
+
+}
+.fp{
+padding:5px;
+}
+.grid-item a h3{
+  text-align: center;
+  color: white;
+}
+
+
+
+p a{
+
+
+  padding: 12px;
+}
+.fb{
+  background: #3b5998;
+  border-radius: 5px;
+}
+
+.sky{
+  background: #00AFF0;
+ border-radius: 5px;
+}
+
+
+.twitter{
+
+background: #00acee;
+border-radius: 5px;
+}
+
+.linkedin{
+
+background: #00acee;
+ border-radius: 5px;
+}
+.gmail{
+background: #00acee;
+ border-radius: 5px;
+
+}
+
+/* END GRID DESIGN */
+
+
+/* FOOTER START */
+
+.main-footer{
+  background:#0009;
+  height: 60px;
+
+}
+.footer{
+  text-align: center;
+  color: white;
+  padding: 25px;
+}
+
+/* footer end */
